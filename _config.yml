@@ -15,12 +15,12 @@ timezone: Europe/Paris
 defaults:
     -
      scope:
-         path: ""
+         path: en
      values:
          author: "recovid"
          layout: post
          lang: en
-         base-url: "https://rstephane.github.io/multilingual/"
+         base-url: "https://rstephane.github.io/multilingual/en/"
     -
      scope:
          path: fr
