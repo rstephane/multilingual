@@ -6,16 +6,16 @@ i18n-link: "contact"
 
 # Contact
 
-Vous pouvez me contacter on utilisant l'un des réseaux sociaux situés en haut à droite du site.
+You can contact me by using my profiles in social networks at top right of my site.
 
-Ou bien vous pouvez m'envoyer un mail à l'adresse suivante :
+Or you can use my good old email :
 
 `grangeranthony` à `gmail.com`
-(remplacer "à" par "@")
+(replace "à" by "@")
 
 ### PGP
 
-Parce-que l'email est l'un des moyens les moins sécurisés pour communiquer sur Intenet, voici ma clef publique PGP. Si vous vous demandez comment l'utiliser avec thundermail, lisez juste ce [petit guide](https://support.mozilla.org/en-US/kb/digitally-signing-and-encrypting-messages#w_sending-a-digitally-signed-and-or-encrypted-email).
+Because email is one of the less secured way to communicate on the Internet, here is my PGP public key. If you wonder how to use it with thundermail, just read this [little guide](https://support.mozilla.org/en-US/kb/digitally-signing-and-encrypting-messages#w_sending-a-digitally-signed-and-or-encrypted-email).
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

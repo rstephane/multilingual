@@ -4,10 +4,10 @@ img: 1
 i18n-link: hello
 ---
 
-Première publication d'une longue série... enfin j'espère !
+First post of many... well I hope !
 
-Pour tous ceux au fond de la salle qui se pose la question, tout le site est généré via Jekyll avec des pages écritent en Markdown et du style réalisé en Sass. Tout ça pour... ça. Bon le site est pas encore entièrement terminé, il me reste pas mal de choses à faire, mais c'est déjà un bon début ! Et puis il faut bien le sortir un jour ou l'autre !
+For everybody in the back of the room who may wonder, the whole website is generated with Jekyll with pages wrote in Markdown and style made by Sass. All for... it. Well, the website is still not finished, I have much to do, but it's a great start ! And I have to release it one day !
 
-Et puis bon, des blogs et des sites perso il y en a plein sur Internet. Mais celui-ci, c'est le miens.
+Blogs and personnal websites are a lot on the Intenet. But this one, it is mine.
 
-Du coup, bonne visite et à très bientôt j'espère ! ;)
+So, enjoy your visit and see you soon I hope ! ;)
