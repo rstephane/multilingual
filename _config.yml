@@ -2,7 +2,7 @@ name: Recovid++
 paginate: 5
 url: "https://rstephane.github.io/multilingual"
 github-url: "https://rstephane.github.io/multilingual"
-base-url: "/multilingual"
+base-url: "https://rstephane.github.io/multilingual"
 github-default-branch: "/edit/master/"
 ga: "UA-71881194-1"
 
