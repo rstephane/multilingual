@@ -20,6 +20,8 @@ url: "https://rstephane.github.io"
 baseurl: "/multilingual"
 paginate_path: "/blog/page:num/"
 
+# --- multilingual --- #
+
 name: Recovid++
 paginate: 5
 url: "https://rstephane.github.io/multilingual"
@@ -47,6 +49,35 @@ defaults:
 langs-value:
     en: ""
     fr: fr
+
+# Translation
+t:
+    home:
+        en: "Home"
+        fr: "Accueil"
+    project:
+        en: "Project"
+        fr: "Projets"
+    about-me:
+        en: "About me"
+        fr: "À propos"
+    contact:
+        en: "Contact"
+        fr: "Contact"
+    subtitle:
+        en: "RECOVID DIY Ventilator"
+        fr: "Grenoble Respirateur"
+    footer-article:
+        en: "Found a mistake, or just want to add your words to this post ?"
+        fr: "Vous avez trouvé une erreur ou souhaitez juste ajouter votre grain de sel ?"
+    fork:
+        en: "Fork it on github"
+        fr: "Éditer sur github"
+    desc:
+        en: "My personnal website. recovid"
+        fr: "Mon site personnel. recovid"
+
+# --- End multilingual --- #
 
 # --- Navigation bar options --- #
 
@@ -178,21 +209,22 @@ kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
-defaults:
+# defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      layout: "post"
+#      comments: true  # add comments to all blog posts
+#      social-share: true # add social media sharing buttons to all blog posts
   -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
+#    scope:
+#      path: "" # all files
+#    values:
+#      layout: "page"
+#      show-avatar: true
+
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
