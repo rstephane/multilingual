@@ -26,7 +26,27 @@ url: "https://rstephane.github.io/multilingual"
 github-url: "https://rstephane.github.io/multilingual"
 base-url: "https://rstephane.github.io/multilingual"
 github-default-branch: "/edit/master/"
+defaults:
+    -
+     scope:
+         path: en
+     values:
+         author: "recovid"
+         layout: post
+         lang: en
+         base-url: "https://rstephane.github.io/multilingual/en/"
+    -
+     scope:
+         path: fr
+     values:
+         lang: fr
+         base-url: "https://rstephane.github.io/multilingual/fr/"
 
+
+# Value to use into url per language
+langs-value:
+    en: ""
+    fr: fr
 
 # --- Navigation bar options --- #
 
