@@ -16,9 +16,12 @@ description: Grenoble Emergency Ventilator
 # baseurl should be an empty string
 #baseurl: ""
 
-url: "https://recovid.github.io"
-baseurl: "/website"
+url: "https://rstephane.github.io"
+baseurl: "/multilingual"
 paginate_path: "/blog/page:num/"
+
+# Multilingual
+languages: ["en", "fr"]
 
 # --- Navigation bar options --- #
 
@@ -179,6 +182,9 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
+  - javascript
+  - images
+  - css
 
 # prose.io config
 prose:
@@ -235,6 +241,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
