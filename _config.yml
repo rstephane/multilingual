@@ -1,8 +1,8 @@
 name: Chocanto
 paginate: 5
-url: "http://chocanto.me"
-github-url: "https://rstephane.github.io/multilingual"
-base-url: ""
+url: "https://rstephane.github.io/"
+github-url: "https://rstephane.github.io"
+base-url: "/multilingual"
 github-default-branch: "/edit/master/"
 ga: "UA-71881194-1"
 
