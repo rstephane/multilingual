@@ -6,8 +6,6 @@ base-url: "/multilingual"
 github-default-branch: "/edit/master/"
 ga: "UA-71881194-1"
 
-sass:
-    style: compressed
 
 timezone: Europe/Paris
 
