@@ -15,10 +15,12 @@ description: Grenoble Emergency Ventilator
 
 # baseurl should be an empty string
 #baseurl: ""
+permalink: /:title/
 
 url: "https://rstephane.github.io"
 baseurl: "/multilingual"
-paginate_path: "/blog/page:num/"
+#paginate_path: "/blog/page:num/"
+paginate_path: "/pagination/page:num/"
 
 # --- Navigation bar options --- #
 
