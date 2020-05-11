@@ -9,8 +9,6 @@ ga: "UA-71881194-1"
 sass:
     style: compressed
 
-remote_theme: pmarsceill/just-the-docs
-
 timezone: Europe/Paris
 
 defaults:
