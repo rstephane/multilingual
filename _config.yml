@@ -21,7 +21,7 @@ baseurl: "/multilingual"
 paginate_path: "/blog/page:num/"
 
 # Multilingual
-languages: ["en", "fr"]
+# languages: ["en", "fr"]
 
 # --- Navigation bar options --- #
 
@@ -182,7 +182,7 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-  
+
 # prose.io config
 prose:
   rooturl: '_posts'
@@ -238,7 +238,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-multiple-languages-plugin
 
+#- jekyll-multiple-languages-plugin
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
