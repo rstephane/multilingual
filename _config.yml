@@ -7,7 +7,7 @@ github-default-branch: "/edit/master/"
 ga: "UA-71881194-1"
 
 sass:
-    style: nested
+    style: compressed
 
 timezone: Europe/Paris
 
@@ -16,7 +16,7 @@ defaults:
      scope:
          path: ""
      values:
-         author: "Anthony Granger"
+         author: "recovid"
          layout: post
          lang: en
          base-url: "https://rstephane.github.io/multilingual/"
@@ -65,5 +65,5 @@ t:
         en: "Fork it on github"
         fr: "Éditer sur github"
     desc:
-        en: "My personnal website. Anthony Granger"
-        fr: "Mon site personnel. Anthony Granger"
+        en: "My personnal website. recovid"
+        fr: "Mon site personnel. recovid"
