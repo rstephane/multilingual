@@ -20,9 +20,6 @@ url: "https://rstephane.github.io"
 baseurl: "/multilingual"
 paginate_path: "/blog/page:num/"
 
-# Multilingual
-languages: ["en", "fr"]
-
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
@@ -240,5 +237,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-multiple-languages-plugin
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+# Multilingual
+languages: ["en", "fr"]
+exclude_from_localizations: ["javascript", "img", "css", "scripts", "favicon.ico"]
+
+# Beautiful Jekyll / Dean Attali /
+# Adapted by Rstephane with Multingual and more.
