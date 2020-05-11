@@ -26,8 +26,8 @@ paginate_path: "/pagination/page:num/"
 
 # List of links in the navigation bar
 navbar-links:
-  English : "english"
-  French : "index"
+  Ensjkdfhksglish : "english"
+  Frenchy : "index"
   Project Documentation : "https://github.com/Recovid/Documentation/wiki"
 
 # Image to show in the navigation bar - image must be a square (width = height)
