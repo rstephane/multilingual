@@ -19,13 +19,13 @@ defaults:
          author: "Anthony Granger"
          layout: post
          lang: en
-         base-url: "/"
+         base-url: "https://rstephane.github.io/multilingual/"
     -
      scope:
          path: fr
      values:
          lang: fr
-         base-url: "/fr/"
+         base-url: "https://rstephane.github.io/multilingual/fr/"
 
 gems: [
     "jekyll-paginate",
