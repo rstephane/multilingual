@@ -1,0 +1,31 @@
+$color-main-green: #7CB342;
+$color-main-brown: #795548;
+$color-light-grey: #E4E4E4;
+$color-light-dark: #303030;
+
+//Header
+$color-header-background: $color-main-green;
+$color-header-title: white;
+$color-header-subtitle: $color-light-grey;
+$color-social-font: $color-light-dark;
+$color-social-background: $color-light-grey;
+$color-social-background-hover: darken($color-light-grey, 10%);
+$color-social-background-active: darken($color-light-grey, 20%);
+$height-header: 350px;
+
+$size-social-button: 40px;
+
+//Navigation
+$font-size-nav-desktop: 0.8em;
+$width-nav-desktop: 100px;
+
+$width-nav-mobile: 150px;
+$left-nav-start-mobile: -175px;
+$left-nav-end-mobile: 0;
+
+$height-nav-item: 2em;
+
+//Article
+$size-font-article-meta: 0.8em;
+$size-font-article-title: 2em;
+$height-article-header: 200px;
