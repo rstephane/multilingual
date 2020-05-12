@@ -44,7 +44,12 @@ defaults:
      values:
          lang: fr
          base-url: "https://rstephane.github.io/multilingual/fr/"
-
+    -
+     scope:
+         path: "" # all files
+     values:
+         layout: "page"
+         show-avatar: true
 
 # Value to use into url per language
 langs-value:
