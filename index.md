@@ -6,7 +6,7 @@ bigimg: /img/entete/installation-prototype-V0.jpeg
 tags: [frontpage]
 ---
 
-# Notre objectif ? eeee
+# Notre objectif ? &&&&
 
 Recovid est un **collectif de citoyens** rassemblant des acteurs de différents milieux économiques et académiques Auvergne Rhône Alpes dans le but de **fabriquer une assistance respiratoire contrôlée non conventionnelle.**
 
