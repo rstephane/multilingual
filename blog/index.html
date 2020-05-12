@@ -20,6 +20,17 @@ bigimg: /img/entete/livreblanc.jpg
   </ul>
 </div>
 
+
+
+
+<ul> sfqsd
+  <li><a href="{{ page.base-url }}">{{ site.t['home'][page.lang] }}</a></li>
+  <li><a href="{{ page.base-url }}projects/">{{ site.t['project'][page.lang] }}</a></li>
+  <li><a href="{{ page.base-url }}about/">{{ site.t['about-me'][page.lang] }}</a></li>
+  <li><a href="{{ page.base-url }}contact/">{{ site.t['contact'][page.lang] }}</a></li>
+</ul>
+
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
