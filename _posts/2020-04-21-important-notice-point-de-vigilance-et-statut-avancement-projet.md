@@ -4,6 +4,8 @@ title: Important Notice / Statut avancement projet
 image: /img/icons/rocket.png
 gh-repo: recovid/documentation
 gh-badge: [star, fork, follow]
+i18n-link: EN-PAGE
+lang: en
 tags: [news]
 ---
 

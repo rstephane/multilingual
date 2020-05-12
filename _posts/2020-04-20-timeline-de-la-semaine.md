@@ -4,6 +4,8 @@ title: Time line / Tests et Dossier QARA
 gh-repo: recovid/documentation
 gh-badge: [star, fork, follow]
 tags: [news]
+i18n-link: IN-PAGE
+lang: en
 ---
 
 Timeline pour la semaine du 20 au 27 Avril :
