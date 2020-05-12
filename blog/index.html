@@ -6,7 +6,7 @@ use-site-title: false
 bigimg: /img/entete/livreblanc.jpg
 ---
 
-{% assign postsTrans=paginator.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+{% assign postsTrans=paginator.posts | where:"lang", "en" | sort: 'lang' %}
 
 {% if postsTrans.size == 0 %}
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
@@ -20,6 +20,7 @@ bigimg: /img/entete/livreblanc.jpg
   </ul>
 </div>
 
+/* {% assign postsTrans=paginator.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %} */
 
 
 
