@@ -12,47 +12,14 @@ bigimg: /img/entete/livreblanc.jpg
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 {% endif %}
 
-<div class="lang">
-  <ul>eztet
-    {% for postTrans in postsTrans %}
-      <li><a class="{{ postTrans.lang }}" href="{{ site.base-url }}{{ postTrans.url }}">{{ postTrans.lang }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-
-
-<ul> sfqsd
-  <li><a href="{{ page.base-url }}">{{ site.t['home'][page.lang] }}</a></li>
-  <li><a href="{{ page.base-url }}projects/">{{ site.t['project'][page.lang] }}</a></li>
-  <li><a href="{{ page.base-url }}about/">{{ site.t['about-me'][page.lang] }}</a></li>
-  <li><a href="{{ page.base-url }}contact/">{{ site.t['contact'][page.lang] }}</a></li>
-</ul>
-
-
-<h1> début verification </h1>
 
 {% assign posts=paginator.posts | where: "lang", "en" %}
-
-{% for post in posts %}
-  <article class="list">
-    <div class="entry">
-      {{ post.excerpt }}
-      <a class="button" href="{{ site.base-url }}{{ post.url }}">Read more <i class="fa fa-chevron-right"></i></a>
-    </div>
-  </article>
-{% endfor %}
-<h1> fin </h1>
-
-
 
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
-    	  <h2 class="post-title">{{ post.i18n-link }} --link- </h2>
-    	  <h2 class="post-title">{{ post.lang }} --post lang- </h2>
-
 	  {% if post.subtitle %}
 	  <h3 class="post-subtitle">
 	    {{ post.subtitle }}
