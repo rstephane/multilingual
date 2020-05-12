@@ -48,7 +48,6 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
 
 {% for post in posts %}
   <article class="list">
-    {% include article-header.html %}
     <div class="entry">
       {{ post.excerpt }}
       <a class="button" href="{{ site.base-url }}{{ post.url }}">Read more <i class="fa fa-chevron-right"></i></a>
