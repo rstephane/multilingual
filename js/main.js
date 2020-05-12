@@ -135,7 +135,7 @@ var main = {
   }
 
 // multilingual
-function toggleBurger() {
+toggleBurger : function toggleBurger() {
 	var el = document.getElementById('main-menu');
 	var elBurger = document.getElementById('burger-green');
 	var elOverlay = document.getElementById('overlay');
