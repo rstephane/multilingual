@@ -6,19 +6,7 @@ use-site-title: false
 bigimg: /img/entete/livreblanc.jpg
 ---
 
-
-{% assign favorite_food = "pizza" %}
-{% assign age = 2333 %}
-
-{% capture about_me %}
-I am {{ age }} and my favorite food is {{ favorite_food }}.
-{% endcapture %}
-
-{{ about_me }}
-
-
-
-
+{% assign postsTrans=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 
 {% if postsTrans.size == 0 %}
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
@@ -33,8 +21,6 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
 </div>
 
 
-
-
 <ul> sfqsd
   <li><a href="{{ page.base-url }}">{{ site.t['home'][page.lang] }}</a></li>
   <li><a href="{{ page.base-url }}projects/">{{ site.t['project'][page.lang] }}</a></li>
@@ -43,9 +29,9 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
 </ul>
 
 
-<h1> nes test </h1>
+<h1> début </h1>
 
-{% assign posts=paginator.posts | where: "lang", page.lang %}
+{% assign posts=paginator.posts | where: "lang", "en" %}
 
 {% for post in posts %}
   <article class="list">
@@ -55,7 +41,7 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
     </div>
   </article>
 {% endfor %}
-<h1> nes test </h1>
+<h1> fin </h1>
 
 
 
