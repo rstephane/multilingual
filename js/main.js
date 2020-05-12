@@ -132,7 +132,7 @@ var main = {
 	} else {
 	  $(".img-desc").hide();
 	}
-  }
+  },
 
 // multilingual
 toggleBurger : function toggleBurger() {
@@ -154,7 +154,7 @@ toggleBurger : function toggleBurger() {
 	}
 
 	return false;
-} // end multilingual
+  } // end multilingual
 
 };
 
