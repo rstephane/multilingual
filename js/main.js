@@ -133,9 +133,6 @@ var main = {
 	  $(".img-desc").hide();
 	}
   }
-};
-
-// 2fc73a3a967e97599c9763d05e564189
 
 // multilingual
 function toggleBurger() {
@@ -157,9 +154,11 @@ function toggleBurger() {
 	}
 
 	return false;
-}
+} // end multilingual
 
-// end
+};
+
+// 2fc73a3a967e97599c9763d05e564189
 
 
 document.addEventListener('DOMContentLoaded', main.init);
