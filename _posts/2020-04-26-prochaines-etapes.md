@@ -5,6 +5,7 @@ image: /img/icons/rocket.png
 gh-repo: recovid/documentation
 gh-badge: [star, fork, follow]
 i18n-link: FRENCHPAGE
+lang: fr
 tags: [news]
 ---
 
