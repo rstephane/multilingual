@@ -12,6 +12,14 @@ bigimg: /img/entete/livreblanc.jpg
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 {% endif %}
 
+<div class="lang">
+  <ul>eztet
+    {% for postTrans in postsTrans %}
+      <li><a class="{{ postTrans.lang }}" href="{{ site.base-url }}{{ postTrans.url }}">{{ postTrans.lang }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
