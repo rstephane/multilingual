@@ -89,6 +89,7 @@ t:
 
 # List of links in the navigation bar
 navbar-links:
+  News: "blog"
   English: "english"
   French: "index"
   Project Documentation: "https://github.com/Recovid/Documentation/wiki"
