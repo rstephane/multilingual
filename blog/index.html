@@ -6,7 +6,7 @@ use-site-title: false
 bigimg: /img/entete/livreblanc.jpg
 ---
 
-{% assign postsTrans=paginator.posts | where:"lang", "en" | sort: 'lang' %}
+{% assign postsTrans=paginator.posts | where:"lang", "en" %}
 
 {% if postsTrans.size == 0 %}
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
@@ -38,7 +38,6 @@ bigimg: /img/entete/livreblanc.jpg
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
     	  <h2 class="post-title">{{ post.i18n-link }} --link- </h2>
-    	  <h2 class="post-title">{{ postsTrans.lang }} --lang- </h2>
     	  <h2 class="post-title">{{ post.lang }} --post lang- </h2>
 
 	  {% if post.subtitle %}
