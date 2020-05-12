@@ -43,20 +43,6 @@ I am {{ age }} and my favorite food is {{ favorite_food }}.
   <li><a href="{{ page.base-url }}contact/">{{ site.t['contact'][page.lang] }}</a></li>
 </ul>
 
-<h1> nes test </h1>
-
-{% assign posts=paginator.posts | where: "lang", page.lang %}
-
-{% for post in posts %}
-  <article class="list">
-    <div class="entry">
-      {{ post.excerpt }}
-      <a class="button" href="{{ site.base-url }}{{ post.url }}">Read more <i class="fa fa-chevron-right"></i></a>
-    </div>
-  </article>
-{% endfor %}
-<h1> nes test </h1>
-
 
 
 <div class="posts-list">
