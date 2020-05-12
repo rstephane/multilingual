@@ -24,7 +24,7 @@ paginate_path: "/blog/page:num/"
 
 name: Recovid++
 paginate: 5
-url: "https://rstephane.github.io/multilingual"
+url: "https://rstephane.github.io"
 github-url: "https://rstephane.github.io/multilingual"
 base-url: "https://rstephane.github.io/multilingual"
 github-default-branch: "/edit/master/"
