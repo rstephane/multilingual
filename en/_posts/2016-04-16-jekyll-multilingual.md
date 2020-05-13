@@ -2,6 +2,7 @@
 title: Build a multilingual website with jekyll
 img: 2
 i18n-link: multilingual
+lang: en
 ---
 
 Some would think that, because Jekyll is a static website generator, it is impossible to handle internationalization. Nothing is more than wrong!
@@ -99,7 +100,7 @@ Your translation is now fully functionnal. Yup, really ! If you want to access y
 
 Here we go, translating post is cool. Accessing translated post via URL is also cool. But automatically display available translations for a page and create links is cooler !
 
-So let's just prepare our code for the moment : 
+So let's just prepare our code for the moment :
 
 {% raw %}
 ~~~ html
@@ -154,7 +155,7 @@ You can also do it for pages like so :
 ~~~
 {% endraw %}
 
-Now let's use our new `posts` variable : 
+Now let's use our new `posts` variable :
 
 {% raw %}
 ~~~ html
@@ -226,7 +227,7 @@ The `defaults` yaml variable is set by scope. One scope per translation. The def
 
 We saw how to translation an entire post. But what if we want to translate our layout ?
 
-You might want to define where part of your layout have to be translated. To do so, we will again use Liquid variables. For example : 
+You might want to define where part of your layout have to be translated. To do so, we will again use Liquid variables. For example :
 
 {% raw %}
 ~~~ liquid
