@@ -13,7 +13,7 @@ page : {{ page.url }}
 lang : {{ page.lang }}
 
 
-# Notre objectif ? wwwwwwww
+# Notre objectif ? eeee
 
 Recovid est un **collectif de citoyens** rassemblant des acteurs de différents milieux économiques et académiques Auvergne Rhône Alpes dans le but de **fabriquer une assistance respiratoire contrôlée non conventionnelle.**
 
