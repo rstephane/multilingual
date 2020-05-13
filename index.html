@@ -1,8 +1,7 @@
 ---
 layout: page
 title: test front page
-subtitle:
-use-site-title: false
+subtitle: zefezer
 i18n-link: index
 lang: en
 ---
@@ -13,10 +12,10 @@ lang: en
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 {% endif %}
 
-{% assign posts=paginator.posts | where: "lang", "en" %}
+{% assign posts=site.pages | where: "lang", "en" %}
 
 <div class="posts-list">
-  {% for post in postsTrans %}
+  {% for post in posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
 	  <h2 class="post-title">{{ post.title }}</h2>

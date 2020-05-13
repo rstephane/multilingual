@@ -4,6 +4,8 @@ title: RECOVID
 subtitle: Grenoble Emergency Ventilator
 bigimg: /img/entete/installation-prototype-V0.jpeg
 tags: [frontpage]
+i18n-link: frontpage
+lang: en
 ---
 
 # Goal
