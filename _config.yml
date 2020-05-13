@@ -52,7 +52,7 @@ defaults:
 
 # Value to use into url per language
 langs-value:
-    en: ""
+    en: en
     fr: fr
 
 # Translation
