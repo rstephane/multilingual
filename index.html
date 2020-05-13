@@ -12,7 +12,7 @@ lang: en
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 {% endif %}
 
-{% assign pagesTrans=site.pages | where: "lang", "en" %}
+{% assign pagesTrans=site.posts | where: "lang", "en" %}
 
 
 <div class="posts-list">
