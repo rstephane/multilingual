@@ -64,11 +64,11 @@ t:
         en: "Project"
         fr: "Projets"
     about-me:
-        en: "About me"
-        fr: "À propos"
+        en: "english"
+        fr: "anglais"
     contact:
-        en: "Contact"
-        fr: "Contacts"
+        en: "French"
+        fr: "Français"
     subtitle:
         en: "RECOVID DIY Ventilator"
         fr: "Grenoble Respirateur"

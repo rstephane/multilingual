@@ -4,6 +4,7 @@ title: RECOVID
 subtitle: Le respirateur Open Source de Grenoble
 bigimg: /img/entete/installation-prototype-V0.jpeg
 tags: [frontpage]
+i18n-link: frontpage
 lang: fr
 ---
 
@@ -13,7 +14,7 @@ page : {{ page.url }}
 lang : {{ page.lang }}
 
 
-# Notre objectif ? ----
+# Notre objectif ? aaaaa
 
 Recovid est un **collectif de citoyens** rassemblant des acteurs de différents milieux économiques et académiques Auvergne Rhône Alpes dans le but de **fabriquer une assistance respiratoire contrôlée non conventionnelle.**
 
