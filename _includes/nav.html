@@ -23,13 +23,13 @@
             <div class="navlinks-children">
               {%- for childlink in link[1] -%}
               {%- for linkparts in childlink %}
-              <a href="{{ page.lang }}{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
+              <a href="{{ page.lang }}/{{ linkparts[1] | relative_url }}">{{ linkparts[0] }}</a>
               {%- endfor -%}
               {%- endfor %}
             </div>
           </li>
         {% else %}
-          <li><a href="{{ page.lang }}{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
+          <li><a href="{{ site.baseurl }}/totto/{{ page.lang }}/{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
         {%- endif -%}
       {%- endfor -%}
 
