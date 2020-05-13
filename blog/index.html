@@ -12,8 +12,6 @@ bigimg: /img/entete/livreblanc.jpg
   {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
 {% endif %}
 
-ciuciu
-
 {% assign posts=paginator.posts | where: "lang", "en" %}
 
 <div class="posts-list">
