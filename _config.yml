@@ -91,6 +91,10 @@ navbar-links:
   News: "blog"
   English: "english"
   French: "index"
+  Community:
+    - Organisation: "community/organisation"
+    - Team: "community/team"
+
   Project Documentation: "https://github.com/Recovid/Documentation/wiki"
 
 # Image to show in the navigation bar - image must be a square (width = height)
