@@ -802,6 +802,26 @@ pre {
     /*margin-left: -15px;*/
 }
 
+.lang {
+
+	li {
+		display: inline-block;
+		height: 1.5em;
+
+		a {
+			padding: 0 5px;
+			line-height: 1.7em;
+			font-weight: 300;
+			text-transform: lowercase;
+
+			&.en:lang(en), &.fr:lang(fr) {
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
 /* .row {
     margin-right: -250px;
     margin-left: -250px;
