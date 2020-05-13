@@ -8,14 +8,12 @@ i18n-link: frontpage
 lang: fr
 ---
 
-{% assign page.lang = "Hello World!" %}
-
 site : {{ site.base-url }}
 page : {{ page.url }}
 lang : {{ page.lang }}
 
 
-# Notre objectif ? zzzz
+# Notre objectif ? """"""rrrr""""""
 
 Recovid est un **collectif de citoyens** rassemblant des acteurs de différents milieux économiques et académiques Auvergne Rhône Alpes dans le but de **fabriquer une assistance respiratoire contrôlée non conventionnelle.**
 
