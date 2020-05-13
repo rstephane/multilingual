@@ -6,10 +6,10 @@ i18n-link: index
 lang: en
 ---
 
-{% assign postsTrans=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+{% assign postsTrans=site.posts | where: "lang", "en" %}
 
 {% if postsTrans.size == 0 %}
-  {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+  {% assign postsTrans=site.pages | where: "lang", "en" %}
 {% endif %}
 
 <div class="posts-list">
