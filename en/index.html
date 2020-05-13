@@ -4,14 +4,14 @@ i18n-link: index
 lang: en
 ---
 
-{% assign posts=paginator.posts | where:"lang", page.lang %}
+{% assign posts=paginator.posts | where:"lang", "en" %}
 
 {% for post in posts %}
   <article class="list">
     <div class="entry">
       {{ post.excerpt }}
 
-      dsklgjqksjhgqksgh lqshgqklsh qklsfh q
+      de l'anglais ! 
       <a class="button" href="{{ site.base-url }}{{ post.url }}">Read more <i class="fa fa-chevron-right"></i></a>
     </div>
   </article>
