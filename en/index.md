@@ -8,7 +8,7 @@ i18n-link: frontpage
 lang: en
 ---
 
-# Goal 
+# Goal
 
 The aim of the RECOVID project is to **develop an open source VAC with all contributions being under MIT/CC license** allowing other to copy, replicate, derive similar VACs. We try selecting components that are either readily available in hospitals or in FabLabs, to make it as easy as possible to replicate the design. The design is driven by requirements provided by emergency professionals, and aim to make the usage of the device easy and familiar for them.
 
