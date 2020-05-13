@@ -6,11 +6,7 @@ i18n-link: index
 lang: en
 ---
 
-{% assign postsTrans=site.posts | where: "lang", "en" %}
-
-{% if postsTrans.size == 0 %}
-  {% assign postsTrans=site.pages | where: "lang", "en" %}
-{% endif %}
+{% assign postsTrans=site.pages | where: "lang", "en" %}
 
 <div class="posts-list">
   {% for post in postsTrans %}
