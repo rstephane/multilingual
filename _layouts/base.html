@@ -23,7 +23,15 @@ common-js:
 
     {% include gtm_body.html %}
 
-    {% include nav.html %}
+
+{% if page.lang == "en" %}
+  {% include nav.html %}
+{% endif %}
+
+{% if page.lang == "fr" %}
+  {% include nav-fr.html %}
+{% endif %}
+
 
     {{ content }}
 
