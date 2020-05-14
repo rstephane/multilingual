@@ -52,7 +52,7 @@ defaults:
 # Value to use into url per language
 langs-value:
     en: en
-    fr: fr
+    fr: ""
 
 # Translation
 t:
@@ -94,7 +94,7 @@ navbar-links:
   Community:
     - Organisation: "community/organisation"
     - Team: "community/team"
-    
+
 # Menu: French Version
 navbar-links-fr:
   Nouvelles: "blog"
