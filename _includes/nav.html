@@ -16,6 +16,11 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
+
+        <div class="lang">
+          <li><a class="FR" href="{{ site.baseurl }}">FR</a></li>
+        </div>
+
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="navlinks-container">
@@ -32,9 +37,6 @@
           <li><a href="{{ site.baseurl }}/{{ page.lang }}/{{ link[1] }}">{{ link[0] }}</a></li>
         {%- endif -%}
       {%- endfor -%}
-
-      {% include nav-ul.html %}
-      {% include select-lang.html %}
 
       </ul>
     </div>
