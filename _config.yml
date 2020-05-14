@@ -21,13 +21,12 @@ baseurl: "/multilingual"
 paginate_path: "/blog/page:num/"
 
 # --- multilingual --- #
-name: Recovid++
-paginate: 5
-# url: "https://rstephane.github.io"
+name: Recovid
 github-url: "https://rstephane.github.io"
 base-url: "multilingual/"
 github-default-branch: "/edit/master/"
 
+# --- multilingual  : note that I am not sure if thoe linbes below works ! --- #
 defaults:
     -
      scope:
@@ -42,7 +41,7 @@ defaults:
          path: fr
      values:
          lang: fr
-         base-url: "https://rstephane.github.io/multilingual/fr/"
+         base-url: "https://rstephane.github.io/multilingual"
     -
      scope:
          path: "" # all files
@@ -64,11 +63,11 @@ t:
         en: "Project"
         fr: "Projets"
     about-me:
-        en: "english"
-        fr: "anglais"
+        en: "About me"
+        fr: "A propos"
     contact:
-        en: "French"
-        fr: "Français"
+        en: "Contact"
+        fr: "Nous contacter"
     subtitle:
         en: "RECOVID DIY Ventilator"
         fr: "Grenoble Respirateur"
@@ -79,34 +78,37 @@ t:
         en: "Fork it on github"
         fr: "Éditer sur github"
     desc:
-        en: "My personnal website. recovid"
-        fr: "Mon site personnel. recovid"
+        en: "Recovid official website."
+        fr: "Le site web officiel de RECOVID"
 
 # --- End multilingual --- #
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
+# Menu: English Version
 navbar-links:
   News: "blog"
-  English: "english"
-  French: "index"
+  Clinical: "english"
+  Ressources: "Ressources"
   Community:
     - Organisation: "community/organisation"
     - Team: "community/team"
 
   Project Documentation: "https://github.com/Recovid/Documentation/wiki"
 
+# Menu: French Version
 navbar-links-fr:
   Nouvelles: "blog"
-  TRADUC: "english"
-  French: "index"
+  Clinical: "Clinique"
+  Ressources: "Ressources"
   Communauté:
     - Organisation: "community/organisation"
     - équipe: "community/team"
 
-  Documentation: "https://github.com/Recovid/Documentation/wiki"
+  Documentation du projet: "https://github.com/Recovid/Documentation/wiki"
 
+# End of the Menu
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
