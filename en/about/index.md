@@ -1,7 +1,7 @@
 ---
 title: "About me"
 layout: "page"
-i18n-link: "about"
+lang: en
 ---
 
 # About me
@@ -30,12 +30,12 @@ This website is entirerly **open sourced**, so feel free to have a look inside v
 -----BEGIN GEEK CODE BLOCK-----
 Version: 3.1
 GCS/E/IT/M/MU/S d->+ s: a-- C++$ UL+++>++++$ P+ L+++>$ E--- W+++$ !N o--? K--? w O? M V? PS+ PE Y+ PGP++ t+ 5? X R tv- b++ DI+ D+ G e++ h+ r+ y?
-------END GEEK CODE BLOCK------ 
+------END GEEK CODE BLOCK------
 ```
 
 ### PGP
 
-You can find my PGP public key on the page **Contact**. 
+You can find my PGP public key on the page **Contact**.
 
 ### License
 

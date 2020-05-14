@@ -1,7 +1,7 @@
 ---
 title: Hello world !
 img: 1
-i18n-link: hello
+lang: en
 ---
 
 First post of many... well I hope !

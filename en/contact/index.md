@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 layout: "page"
-i18n-link: "contact"
+lang: en
 ---
 
 # Contact
