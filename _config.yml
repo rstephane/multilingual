@@ -100,7 +100,9 @@ navbar-links:
   Experiments & Results:
     - sub menu 1 : "projects/index"
     - sub menu 2 : "dontknow"
-  Ressources: "Ressources"
+  Ressources:
+      - Download: "community/organisation"
+      - Licence: "community/team"
   Community:
     - Organisation: "community/organisation"
     - Team: "community/team"
@@ -120,7 +122,9 @@ navbar-links-fr:
   Expérimentations & Résultats:
     - sub menu 1 : "dontknow"
     - sub menu 2 : "dontknow"
-  Ressources: "Ressources"
+  Ressources:
+      - Téléchargement: "community/organisation"
+      - License: "community/team"
   Communauté:
     - Organisation: "community/organisation"
     - équipe: "community/team"
