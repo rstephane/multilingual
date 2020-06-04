@@ -4,13 +4,12 @@ title: Actualités
 use-site-title: false
 ---
 
-{% assign postsTrans=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-
-{% if postsTrans.size == 0 %}
-  {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+<!-- multilingual -->
+{% if page.lang == "en" %}
+  {% assign posts=paginator.posts | where: "lang", "en" %}
+{% else %}
+  {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
-
-{% assign posts=paginator.posts | where: "lang", "fr" %}
 
 <div class="posts-list">
   {% for post in posts %}
