@@ -142,7 +142,7 @@ avatar: "/img/logo_recovid.png"
 # 265, 68, 82
 
 navbar-col: "#C61111"
-navbar-text-col: "#000000"
+navbar-text-col: "#FFFFFF"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
