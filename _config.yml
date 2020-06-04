@@ -23,7 +23,7 @@ paginate_path: "/blog/page:num/"
 # --- multilingual --- #
 name: Recovid
 github-url: "https://rstephane.github.io"
-base-url: "multilingual/"
+base-url: "multilingual"
 github-default-branch: "/edit/master/"
 
 # --- multilingual --- #
