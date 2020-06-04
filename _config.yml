@@ -89,7 +89,7 @@ t:
 # List of links in the navigation bar
 # Multilingual : Menu English Version
 navbar-links:
-  News: "blog"
+  News: "../blog"
   Clinical:
     - Key Specifications : "dontknow"
     - Results: "dontknow"
