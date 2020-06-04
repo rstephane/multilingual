@@ -6,9 +6,9 @@ use-site-title: false
 
 <!-- multilingual -->
 {% if page.lang == "en" %}
-  {% assign posts=paginator.posts | where: "lang", "en" %}
+  {% assign posts=paginator.page | where: "lang", "en" %}
 {% else %}
-  {% assign posts=paginator.posts | where: "lang", "fr" %}
+  {% assign posts=paginator.page | where: "lang", "fr" %}
 {% endif %}
 
 <div class="posts-list">

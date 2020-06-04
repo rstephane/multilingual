@@ -18,7 +18,7 @@ description: Grenoble Emergency Ventilator
 
 url: "https://rstephane.github.io"
 baseurl: "/multilingual"
-paginate_path: "/en/blog/page:num/"
+paginate_path: "/blog/page:num/"
 
 # --- multilingual --- #
 name: Recovid
