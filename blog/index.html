@@ -1,14 +1,8 @@
 ---
 layout: page
-title: Actualités
+title: titit
 use-site-title: false
 ---
-
-{% assign postsTrans=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-
-{% if postsTrans.size == 0 %}
-  {% assign postsTrans=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
-{% endif %}
 
 <!-- multilingual -->
 {% if page.lang == "en" %}
