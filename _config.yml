@@ -26,7 +26,7 @@ github-url: "https://rstephane.github.io"
 base-url: "multilingual/"
 github-default-branch: "/edit/master/"
 
-# --- multilingual  : note that I am not sure if thoe linbes below works ! --- #
+# --- multilingual  : note that I am not sure if those links below works ! --- #
 defaults:
     -
      scope:
@@ -54,7 +54,8 @@ langs-value:
     en: en
     fr: ""
 
-# Translation
+# multilingual  : Some words translation
+# multilingual  : not sure if I am using those anymore !
 t:
     home:
         en: "Home"
@@ -86,19 +87,41 @@ t:
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-# Menu: English Version
+# Multilingual : Menu English Version
 navbar-links:
   News: "blog"
-  Clinical: "english"
+  Clinical:
+    - Key Specifications : "dontknow"
+    - Results: "dontknow"
+  Mechanical:
+    - sub menu 1 : "dontknow"
+    - sub menu 2 : "dontknow"
+  Controls & Electrical:
+    - sub menu 1 : "dontknow"
+    - sub menu 2 : "dontknow"
+  Experiments & Results:
+    - sub menu 1 : "dontknow"
+    - sub menu 2 : "dontknow"
   Ressources: "Ressources"
   Community:
     - Organisation: "community/organisation"
     - Team: "community/team"
 
-# Menu: French Version
+# Multilingual : Menu French Version
 navbar-links-fr:
   Nouvelles: "blog"
-  Clinical: "Clinique"
+  Clinique:
+    - Spécifications : "dontknow"
+    - Résultats: "dontknow"
+  Méchanique:
+    - sub menu 1 : "dontknow"
+    - sub menu 2 : "dontknow"
+  Contrôles & Eléctroniques:
+    - sub menu 1 : "dontknow"
+    - sub menu 2 : "dontknow"
+  Expérimentations & Résultats:
+    - sub menu 1 : "dontknow"
+    - sub menu 2 : "dontknow"
   Ressources: "Ressources"
   Communauté:
     - Organisation: "community/organisation"
