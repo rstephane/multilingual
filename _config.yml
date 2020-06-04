@@ -111,13 +111,13 @@ navbar-links:
 navbar-links-fr:
   Nouvelles: "blog"
   Clinique:
-    - Spécifications : "dontknow"
+    - Spécifications : "about/index"
     - Résultats: "dontknow"
   Méchanique:
-    - sub menu 1 : "dontknow"
+    - sub menu 1 : "contact/index"
     - sub menu 2 : "dontknow"
   Contrôles & Eléctroniques:
-    - sub menu 1 : "dontknow"
+    - sub menu 1 : "projects/index"
     - sub menu 2 : "dontknow"
   Expérimentations & Résultats:
     - sub menu 1 : "dontknow"
