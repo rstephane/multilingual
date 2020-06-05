@@ -108,7 +108,6 @@ navbar-links:
 
 # Multilingual : Menu French Version
 navbar-links-fr:
-  news : "blog"
   Clinique:
     - Spécifications : "about/index"
     - Résultats: "dontknow"
