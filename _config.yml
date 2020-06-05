@@ -87,7 +87,6 @@ t:
 # List of links in the navigation bar
 # Multilingual : Menu English Version
 navbar-links:
-  News: "blog"
   Clinical:
     - Key Specifications : "about/index"
     - Results: "dontknow"
@@ -109,7 +108,6 @@ navbar-links:
 
 # Multilingual : Menu French Version
 navbar-links-fr:
-  Nouvelles: "blog"
   Clinique:
     - Spécifications : "about/index"
     - Résultats: "dontknow"
