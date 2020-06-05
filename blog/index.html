@@ -15,7 +15,6 @@ use-site-title: false
 
 <div class="posts-list">
   {% for post in posts %}
-    {% if post.tag == "en" %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
 	       <h2 class="post-title">{{ post.title }}</h2>
@@ -62,7 +61,6 @@ use-site-title: false
 
    </article>
 
-  {% endif %}
   {% endfor %}
 </div>
 

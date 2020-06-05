@@ -6,7 +6,7 @@ gh-repo: recovid/documentation
 gh-badge: [star, fork, follow]
 i18n-link: FRENCHPAGE
 lang: fr
-tags: [news]
+tags: [fr]
 ---
 
 # News Week-end 20-26 Avril
