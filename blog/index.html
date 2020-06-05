@@ -11,9 +11,10 @@ use-site-title: false
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
-{{ relative_url }} //
+{{ site.relative_url }} //
 {{ site.baseurl }} //
-{{ page.lang }}
+{{ site.lang }} //
+{{ site.absolute_url }}
 
 
 <div class="posts-list">
