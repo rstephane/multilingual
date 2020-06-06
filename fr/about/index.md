@@ -1,7 +1,7 @@
 ---
 title: "À propos"
 layout: "page"
-i18n-link: "about"
+lang: "fr"
 ---
 
 # À propos
@@ -30,18 +30,18 @@ Ce site est entièrement **open source**, donc sentez-vous libre d'y jeter un co
 -----BEGIN GEEK CODE BLOCK-----
 Version: 3.1
 GCS/E/IT/M/MU/S d->+ s: a-- C++$ UL+++>++++$ P+ L+++>$ E--- W+++$ !N o--? K--? w O? M V? PS+ PE Y+ PGP++ t+ 5? X R tv- b++ DI+ D+ G e++ h+ r+ y?
-------END GEEK CODE BLOCK------ 
+------END GEEK CODE BLOCK------
 ```
 
 ### PGP
 
-Vous pouvez trouver ma clef publique PGP sur ma page **Contact**. 
+Vous pouvez trouver ma clef publique PGP sur ma page **Contact**.
 
 ### Licence
 
 [![CC BY-SA 3.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons Attribution-ShareAlike 4.0 International License")](http://creativecommons.org/licenses/by-sa/4.0/)
 
-Si vous faites parti de ses personnes qui portent une importance toute particulière aux licenses (si tel est le cas, alors laissez moi vous faire un gros bisous virtuel), ou bien juste curieux de connaître vos droits, ce paragraphe est pour vous. Tout le contenu de ce site est placé sous la licence **CC BY-SA 3.0**. Ceci signifie que vous êtes libre de copier, redistribuer et adapter mon contenu tant que vous : 
+Si vous faites parti de ses personnes qui portent une importance toute particulière aux licenses (si tel est le cas, alors laissez moi vous faire un gros bisous virtuel), ou bien juste curieux de connaître vos droits, ce paragraphe est pour vous. Tout le contenu de ce site est placé sous la licence **CC BY-SA 3.0**. Ceci signifie que vous êtes libre de copier, redistribuer et adapter mon contenu tant que vous :
 
 * indiquez mon nom et mettez à disposition un lien vers le contenu original
 * intégrez un lien vers la licence

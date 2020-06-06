@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: "page"
-lang: en
+lang: "en"
 ---
 
 # My projects

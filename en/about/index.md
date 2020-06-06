@@ -1,7 +1,7 @@
 ---
 title: "About me"
 layout: "page"
-lang: en
+lang: "en"
 ---
 
 # About me

@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: "page"
-i18n-link: "projects"
+lang: "fr"
 ---
 
 # My projects
@@ -62,7 +62,7 @@ Technologies utilisées :
 
 ## Detect-hand (2011)
 
-Un tout petit premier projet avec OpenCV. Celui-ci est capable de détecter votre main à partir d'une caméra et de faire suivre le curseur avec la main. 
+Un tout petit premier projet avec OpenCV. Celui-ci est capable de détecter votre main à partir d'une caméra et de faire suivre le curseur avec la main.
 
 [Sources](https://github.com/Chocanto/detect-hand). (Il peut ne plus fonctionner, comme dit au-dessus le projet n'est plus tout jeune...)
 

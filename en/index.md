@@ -3,7 +3,7 @@ layout: page
 title: RECOVID
 subtitle: Grenoble Emergency Ventilator
 tags: [frontpage]
-lang: en
+lang: "en"
 ---
 
 # Goal
