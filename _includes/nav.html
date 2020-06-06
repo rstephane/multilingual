@@ -22,6 +22,9 @@
           <li><a href="/multilingual/blog">Blog</a></li>
         </li>
 
+        {% assign site.my_lang = "en" %}
+
+
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="navlinks-container">
