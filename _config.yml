@@ -54,38 +54,7 @@ langs-value:
     en: en
     fr: ""
 
-# multilingual  : Some words translation
-# multilingual  : not sure if I am using those anymore !
-t:
-    home:
-        en: "Home"
-        fr: "Accueil"
-    project:
-        en: "Project"
-        fr: "Projets"
-    about-me:
-        en: "About me"
-        fr: "A propos"
-    contact:
-        en: "Contact"
-        fr: "Nous contacter"
-    subtitle:
-        en: "RECOVID DIY Ventilator"
-        fr: "Grenoble Respirateur"
-    footer-article:
-        en: "Found a mistake, or just want to add your words to this post ?"
-        fr: "Vous avez trouvé une erreur ou souhaitez juste ajouter votre grain de sel ?"
-    fork:
-        en: "Fork it on github"
-        fr: "Éditer sur github"
-    desc:
-        en: "Recovid official website."
-        fr: "Le site web officiel de RECOVID"
-
-# --- End multilingual --- #
-
 # --- Navigation bar options --- #
-
 # List of links in the navigation bar
 # Multilingual : Menu English Version
 navbar-links:
