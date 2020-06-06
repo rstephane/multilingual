@@ -23,7 +23,9 @@
         </li>
 
         {% assign my_lang = "en" %}
-{{ my_lang }}
+{{ my_lang }} //
+{{ site.paginate_path }}
+
 
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
