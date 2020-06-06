@@ -22,13 +22,10 @@
           <li><a href="/multilingual/blog">Blog</a></li>
         </li>
 
+{% capture my_lang %}{{ "en" }}{% endcapture %}
+//
         {% assign my_lang = "en" %}
 {{ my_lang }} //
-{{ site.paginate_path }} //
-{% assign site.paginate_path = "oooo camarcherais" %} //
-{{ site.paginate_path }} //
-
-
 
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}

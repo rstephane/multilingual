@@ -24,8 +24,11 @@
           <li><a href="/multilingual/blog">Blog</a></li>
         </li>
 
-{% assign site.my_lang = "fr" %}
-{{ site.my_lang }}
+
+{% capture my_lang %}{{ "fr" }}{% endcapture %}
+//
+        {% assign my_lang = "fr" %}
+{{ my_lang }} //
 
       {%- for link in site.navbar-links-fr -%}
         {%- if link[1].first %}
