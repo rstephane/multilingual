@@ -11,7 +11,9 @@ use-site-title: false
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
-{% assign postsTrans=site.posts | sort: 'lang' %}
+<script>
+lang : <%= request.getParameter("lang") %>
+</script>
 
 <div class="posts-list">
   {% for post in posts %}
