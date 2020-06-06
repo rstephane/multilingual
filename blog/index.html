@@ -11,6 +11,9 @@ use-site-title: false
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
+	      passage de lang:       {{ site.my_lang }}
+
+
 <div class="posts-list">
   {% for post in posts %}
     <article class="post-preview">
