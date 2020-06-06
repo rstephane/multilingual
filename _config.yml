@@ -52,9 +52,6 @@ langs-value:
     en: en
     fr: ""
 
-# Default Lang Value to use into url per language
-my_lang : fr
-
 # multilingual  : Some words translation
 # multilingual  : not sure if I am using those anymore !
 t:
