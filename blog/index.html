@@ -3,6 +3,7 @@ layout: page
 title: Actualités
 use-site-title: false
 ---
+	      passage de lang:       {{ site.my_lang }} // {{ my_lang }}
 
 <!-- multilingual -->
 {% if page.lang == "en" %}
@@ -11,7 +12,6 @@ use-site-title: false
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
-	      passage de lang:       {{ site.my_lang }}
 
 
 <div class="posts-list">
