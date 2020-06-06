@@ -28,6 +28,9 @@
 {% capture my_lang %}{{ "fr" }}{% endcapture %}
 //
 {{ my_lang }} //
+{% capture site.paginate_path %}{{ "SITE--OOOOO" }}{% endcapture %}
+//
+{{ site.paginate_path }} //
 
       {%- for link in site.navbar-links-fr -%}
         {%- if link[1].first %}
