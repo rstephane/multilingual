@@ -3,7 +3,7 @@ layout: page
 title: RECOVID
 subtitle: Le respirateur Open Source de Grenoble
 tags: [frontpage]
-lang: fr
+lang: "fr"
 ---
 
 # Notre objectif ?
