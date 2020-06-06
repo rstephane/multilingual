@@ -32,6 +32,8 @@ defaults:
      scope:
          path: en
      values:
+         author: "recovid"
+         layout: post
          lang: en
          base-url: "https://rstephane.github.io/multilingual/en/"
     -
