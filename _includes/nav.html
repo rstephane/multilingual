@@ -19,15 +19,11 @@
       <ul class="nav navbar-nav navbar-right">
 
         <li class="navlinks-container">
-          <li><a href="/multilingual/blog?lang=en">Blog</a></li>
+          <li><a href="/multilingual/blog">Blog</a></li>
         </li>
 
-{% capture my_lang %}{{ "en" }}{% endcapture %}
 //
 {{ my_lang }} //
-{% capture paginate_path %}{{ "xxxxxxx" }}{% endcapture %}
-//
-{{ paginate_path }} //
 
       {%- for link in site.navbar-links -%}
         {%- if link[1].first %}

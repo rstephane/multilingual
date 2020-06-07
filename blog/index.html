@@ -11,9 +11,8 @@ use-site-title: false
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
-<script>
-lang : <%= request.getParameter("lang") %>
-</script>
+
+	           sdfsdfds : {{ my_lang }}
 
 <div class="posts-list">
   {% for post in posts %}
