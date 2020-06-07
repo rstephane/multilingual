@@ -1,8 +1,8 @@
 ---
 title: Build a multilingual website with jekyll
 img: 2
-lang: en
-category: blogen
+lang: "en"
+category: "blogen"
 ---
 
 Some would think that, because Jekyll is a static website generator, it is impossible to handle internationalization. Nothing is more than wrong!

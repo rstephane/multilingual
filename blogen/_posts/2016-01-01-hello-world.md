@@ -1,8 +1,8 @@
 ---
 title: Hello world !
 img: 1
-lang: en
-category: blogen
+lang: "en"
+category: "blogen"
 ---
 
 First post of many... well I hope !
