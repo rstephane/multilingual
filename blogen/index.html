@@ -12,6 +12,10 @@ category: blogen
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
+// categories
+{{ site.categories }}
+{{ site.category }}
+
 
 {% raw %}
 {% for post in site.posts %}
