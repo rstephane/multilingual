@@ -19,8 +19,15 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
+
     <!-- multilingual -->
-    {%- for link in site.navbar-links -%}
+
+        <li class="navlinks-container">
+          <li><a href="{{ site.baseurl }}/blogen">News</a></li>
+        </li>
+
+
+      {%- for link in site.navbar-links -%}
         {%- if link[1].first %}
           <li class="navlinks-container">
             <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
