@@ -28,7 +28,8 @@ category: blogfr
 
 
 <div class="posts-list">
-  {% for post in posts %}
+  {% for post in site.posts %}
+    {% if post.categories contains 'blogfr' %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
 	       <h2 class="post-title">{{ post.title }}</h2>
@@ -73,7 +74,8 @@ category: blogfr
     {% endif %}
 
    </article>
-
+   
+  {% endif %}
   {% endfor %}
 </div>
 
