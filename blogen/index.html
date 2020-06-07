@@ -12,11 +12,10 @@ category: blogen
   {% assign posts=paginator.posts | where: "lang", "fr" %}
 {% endif %}
 
-// categories
+// categories and not
 {{ site.categories }}
 
 
-{% raw %}
 {% for post in site.posts %}
   {% if post.categories contains 'blogfr' %}
 	<div class="post">
@@ -28,7 +27,6 @@ category: blogen
 	</div>
   {% endif %}
 {% endfor %}
-{% endraw %}
 
 <div class="posts-list">
   {% for post in posts %}
