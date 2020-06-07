@@ -6,18 +6,9 @@ category: blogen
 ---
 
 <!-- multilingual -->
-{% if page.lang == "en" %}
-  {% assign posts=paginator.posts | where: "lang", "en" %}
-{% else %}
-  {% assign posts=paginator.posts | where: "lang", "fr" %}
-{% endif %}
-
-// categories and not
-{{ site.categories }}
-
 
 {% for post in site.posts %}
-  {% if post.categories contains 'blogfr' %}
+  {% if post.categories contains 'blogen' %}
 	<div class="post">
 		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<p class="meta">Date: {{ post.date }}</p>
@@ -29,7 +20,8 @@ category: blogen
 {% endfor %}
 
 <div class="posts-list">
-  {% for post in posts %}
+  {% for post in site.posts %}
+    {% if post.categories contains 'blogen' %}
     <article class="post-preview">
       <a href="{{ post.url | relative_url }}">
 	       <h2 class="post-title">{{ post.title }}</h2>
@@ -74,7 +66,8 @@ category: blogen
     {% endif %}
 
    </article>
-
+   
+  {% endif %}
   {% endfor %}
 </div>
 
