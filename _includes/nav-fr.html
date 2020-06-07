@@ -19,17 +19,7 @@
 
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
-
-        <li class="navlinks-container">
-          <li><a href="{{ site.baseurl }}/blogfr">Blog</a></li>
-        </li>
-
-{% assign my_lang = "fran" %}
-{% assign lang = "fr" %}
-
-        //
-        {{ my_lang }} //
-
+        
       {%- for link in site.navbar-links-fr -%}
         {%- if link[1].first %}
           <li class="navlinks-container">
